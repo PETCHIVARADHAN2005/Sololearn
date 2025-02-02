@@ -1,0 +1,266 @@
+*{
+  margin: 0px;
+}
+body{
+  background-color: #eaf0f3;
+}
+header,footer{
+  background-color:#1c1c1c;
+  color: white;
+}
+header{
+  position: sticky;
+  top: 0;
+}
+
+footer{
+  padding: 10px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.nav-links a{
+  padding: 10px;
+  color: rgb(140, 136, 136);
+  text-decoration: none;
+  font-weight: 100;
+}
+.nav-links select{
+  background-color: #1c1c1c;
+  border: #1c1c1c;
+  color: #686666;
+}
+.nav-links a:hover{
+  color: rgb(174, 174, 177);
+}
+footer .nav-links a,.foot{
+  color: #686666;
+}
+footer .nav-links a:hover{
+  color: #bbb8b8;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  border: 2px solid rgb(35, 140, 220);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding-right: 20px ;
+  padding-left: 20px ;
+}
+.btn-login{
+  background-color: rgb(32, 33, 33);
+  color: rgb(49, 110, 241);
+}
+.btn-login:hover{
+  background-color: rgb(227, 230, 237);
+  color: rgb(49, 110, 241);
+}
+.btn-register{
+  background-color: rgb(49, 110, 241);
+  color: rgb(227, 230, 237);
+}
+.btn-register:hover{
+  background-color: rgb(76, 129, 243);
+  color: rgb(227, 230, 237);
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap:1rem;
+  background-color: #1c1c1c;
+  padding-bottom: 100px;
+  /* position: absolute; */
+}
+.container1 h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.container1 > p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+.inner-container1 .breaker {
+  font-size: 1.2rem;
+  margin: 1rem;
+  color: white;
+}
+.inner-container1{
+  display: flex;
+  flex-direction: column;
+}
+
+.container2{
+  
+  background-color:#fff;
+  margin-left:5%;
+  margin-right: 5%;
+  padding: 50px;
+}
+.courses{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.courses .course1{
+  background-color:  #eaf0f3;
+  color: rgb(79, 75, 75);
+  padding: 25px;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+.courses .course1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.courses .course1 img{
+  border-radius: 50%;
+}
+.container3{
+  display: grid;
+  margin:40px;
+  padding: 50px;
+  /* background-color: rgb(208, 213, 213); */
+  grid-template-areas: "c1 c2 c3""c4 c4 c5";
+}
+.container3 .con1{
+  margin: 10px;
+  padding: 50px;
+  background-color: #fff;;
+  border-radius: 5px;
+}
+.container3 #c4{
+  display: flex;
+}
+#c1{
+  grid-area: c1;
+}
+#c2{
+  grid-area: c2;
+}
+#c3{
+  grid-area: c3;
+}
+#c4{
+  grid-area: c4;
+}
+#c5{
+  grid-area: c5;
+}
+.container4{
+  margin:40px;
+  padding: 50px;
+  /* background-color: rgb(208, 213, 213); */
+  text-align: center;
+  border-radius: 5px;
+}
+.inner-container2{
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  
+  /* background-color: antiquewhite; */
+}
+.inner-container2 .in2{
+  margin: 10px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.container5 .in1{
+  margin:40px;
+  padding: 50px;
+  background-color: rgb(208, 213, 213);
+  text-align: center;
+  border-radius: 5px;
+}
+.container5 .in1 .btn .btn-register:hover{
+  background-color: rgb(144, 188, 148);
+  font-weight: 100;
+}
+.container6{
+  background-color: #fff;
+  text-align: center;
+  padding: 80px;
+}
+.container7 .inner-container{
+  display: flex;
+  /* margin: px; */
+  padding: 20px;
+  /* background-color: #fff; */
+}
+.container7 #uni{
+  /* margin-top: 5px; */
+  padding: 10px;
+  text-align: center;
+}
+.container7 .inner-container .in{
+  /* display: flex;*/
+  background-color: #fff; 
+  margin: 5px;
+  padding: 20px;
+  border-radius: 2%;
+
+}
+.container7 .btn .btn-register{
+  margin-left: 50%;
+}
+.container8{
+    display: grid;
+    grid-template-areas: 'id1 id2 id3 id4 id5';
+    margin: 56px;
+    /* background-color: #686666; */
+    /* justify-content:center; */
+}
+.container8 #c1{
+  padding: 20px;
+}
+.container8 p{
+ color: #bbb8b8;
+}
+.container8 h3{
+  color: #fff;
+ }
+ .container9{
+  display:flex;
+  justify-content: space-around;
+  background-color: #232222;
+ }
+ .container9 #q1{
+  padding: 25px;
+ }
+ .container9 a{
+  color: #fff;
+  font-family: 'Franklin Gothic Medium';
+  text-decoration: none;
+  cursor: pointer;
+ }
+ .container9 a:hover{
+  color: #e2dfdf;
+ }
+
+ 
+
+
+
